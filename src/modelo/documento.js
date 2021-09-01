@@ -8,4 +8,4 @@ const docSchema = mongoose.Schema({
   deletedAt: { type: Date },
 });
 
-module.exports = mongoose.model('Document', docSchema);
+module.exports = mongoose.model('Documento', docSchema);
