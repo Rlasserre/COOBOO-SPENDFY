@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-const connectMongoDB = async () => {
+const conexaoMongoDB = async () => {
   const {
     DB_USER, DB_PASSWORD, DB_CLUSTER, DB_NAME,
   } = process.env;
@@ -17,4 +17,4 @@ const connectMongoDB = async () => {
   );
 };
 
-module.exports = connectMongoDB;
+module.exports = conexaoMongoDB;
